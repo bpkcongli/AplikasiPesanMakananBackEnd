@@ -1,6 +1,6 @@
 const fetch = require('node-fetch');
 const sources = require('./sources');
-const host = process.env.NODE_ENV !== 'production'?'localhost':'172.31.22.115';
+const host = process.env.NODE_ENV !== 'production'?'localhost':'13.229.228.190';
 const endpoint = `http://${host}:8080/api/items`;
 
 const addingItemToBackEnd = async (item) => {
