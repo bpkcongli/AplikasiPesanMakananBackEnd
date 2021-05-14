@@ -1,0 +1,24 @@
+{
+  "name": "aplikasi-pesan-makanan-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start-prod": "NODE_ENV=production node ./src/server.js",
+    "start-dev": "nodemon ./src/server.js",
+    "lint": "eslint ./src && eslint ./inject_data"
+  },
+  "author": "CongliCorp",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.26.0",
+    "eslint-config-google": "^0.14.0",
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^20.1.3",
+    "@hapi/inert": "^6.0.3",
+    "nanoid": "^3.1.23",
+    "node-fetch": "^2.6.1"
+  }
+}
