@@ -20,7 +20,8 @@ const init = async () => {
 
   await server.start();
   console.log(`Server listening on ${server.info.uri}`);
+
+  startInjectingData();
 };
 
 init();
-startInjectingData();
